@@ -14,14 +14,8 @@
         padding-bottom: 6%;
         gap: 12%;
 
-        .part1{
-            background-color: rebeccapurple;
-        }
-        .part2{
-            background-color: blue;
-        }
-        .part3{
-            background-color: orange;
+        .part{
+            background-color: var(--color-transparent);
         }
 
         .end{
@@ -33,8 +27,12 @@
             .txt{
                 color: var(--color-black);
                 font-weight: bold;
+                height: auto;
             }
             .item{
+                display: flex;
+                padding: 5%;
+                height: 100%;
                 background-color: var(--color-text);
             }
         }

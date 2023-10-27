@@ -1,0 +1,41 @@
+.footer{
+    font-family: var(--font-secondary);
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    .wrapper{
+
+    }
+
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            width: 16%;
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            width: 20%;
+        }
+    }
+    .bottom{
+        margin-top: 5%;
+        font-size: var(--font-size-petit);
+        display: flex;
+        justify-content: space-between;
+        .left{
+            flex: 1;
+        }
+        .mid{
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+        }
+        .right{
+            flex: 1;
+        }
+    }
+}
